@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        ul {
+            list-style: none;
+        }
+
+        .container {
+            width: 96%;
+            margin: auto;
+        }
+
+        header,footer {
+            background-color: #ddd;
+            padding: 10px 15px;
+        }
+
+        header .container,
+        footer .container{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            min-height: 50px;
+        }
+
+        nav, footer h2 {
+            width: 1;
+            margin: 0 auto;
+        }
+
+        nav ul{
+            display: flex;
+
+            gap: 10px;
+            padding: 10px;
+            font-size: 20px;
+            font-weight: bold;
+        }
+
+        main h1 {
+            text-align: center;
+            margin: 50px;
+        }
+
+        main .container > div {
+            margin-block: 30px;
+            width: 700px;
+            margin-inline: auto;
+            font-size: 20px;
+            max-width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+        <div class="log">
+            <h2>Logo</h2>
+        </div>
+            <nav>
+                <ul>
+                    <li>Home</li>
+                    <li class="active">About</li>
+                    <li>Contact us</li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <div class="container">
+        <h1>About US</h1>
+        <div class="section1">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam iure nemo, reprehenderit quos minima ea ipsum
+                accusamus rem dolorum consectetur dolor nulla maiores ad voluptates alias nihil similique molestiae est.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam iure nemo, reprehenderit quos minima ea ipsum
+                accusamus rem dolorum consectetur dolor nulla maiores ad voluptates alias nihil similique molestiae est.</p>
+        </div>
+        <div class="section2">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam iure nemo, reprehenderit quos minima ea ipsum
+                accusamus rem dolorum consectetur dolor nulla maiores ad voluptates alias nihil similique molestiae est.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam iure nemo, reprehenderit quos minima ea ipsum
+                accusamus rem dolorum consectetur dolor nulla maiores ad voluptates alias nihil similique molestiae est.</p>
+        </div>
+        <div class="section3">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam iure nemo, reprehenderit quos minima ea ipsum
+                accusamus rem dolorum consectetur dolor nulla maiores ad voluptates alias nihil similique molestiae est.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam iure nemo, reprehenderit quos minima ea ipsum
+                accusamus rem dolorum consectetur dolor nulla maiores ad voluptates alias nihil similique molestiae est.</p>
+        </div>
+        <div class="section4">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam iure nemo, reprehenderit quos minima ea ipsum
+                accusamus rem dolorum consectetur dolor nulla maiores ad voluptates alias nihil similique molestiae est.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam iure nemo, reprehenderit quos minima ea ipsum
+                accusamus rem dolorum consectetur dolor nulla maiores ad voluptates alias nihil similique molestiae est.</p>
+        </div>
+    </div>
+    </main>
+    <footer>
+        <div class="container">
+            <div class="log">
+                <h2>Logo</h2>
+            </div>
+            <h2>copyright &copy; Hmdan</h2>
+        </div>
+    </footer>
+</body>
+</html>
