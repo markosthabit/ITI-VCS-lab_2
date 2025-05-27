@@ -258,3 +258,36 @@ nav {
         width: 120px;
     }
 }
+
+/* footer */
+
+footer {
+    text-align: center;
+    background: #000;
+    padding: 1rem 0;
+    color: #fff;
+}
+
+footer h1 {
+    margin-bottom: 20px;
+    transition: var(--mainTransition);
+}
+
+footer h1:hover {
+    color: var(--red);
+}
+
+footer p {
+    padding-bottom: 1.5rem;
+}
+
+footer .icons i {
+    margin-right: 8px;
+    font-size: 25px;
+    transition: var(--mainTransition);
+}
+
+footer .icons i:hover {
+    transform: translateY(-20%);
+    color: var(--red);
+}
