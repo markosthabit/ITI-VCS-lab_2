@@ -19,8 +19,48 @@
             width: 96%;
             margin: auto;
         }
+
+        header {
+            background-color: #ddd;
+            padding: 10px 15px;
+        }
+
+        header .container{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            min-height: 50px;
+        }
+
+        nav {
+            width: 1;
+            margin: 0 auto;
+        }
+
+        nav ul{
+            display: flex;
+
+            gap: 10px;
+            padding: 10px;
+            font-size: 20px;
+            font-weight: bold;
+        }
     </style>
 </head>
 <body>
+    <header>
+        <div class="container">
+        <div class="log">
+            <h2>Logo</h2>
+        </div>
+            <nav>
+                <ul>
+                    <li>Home</li>
+                    <li class="active">About</li>
+                    <li>Contact us</li>
+                </ul>
+            </nav>
+        </div>
+    </header>
 </body>
 </html>
